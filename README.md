@@ -7,15 +7,12 @@
 ## ユーザーがカスタマイズする際の手順
 
 * [Use this template](https://github.com/naogify/basic/generate) ボタンでこのリポジトリをコピー。
+* GitHubPages を設定。
 * `style.yml` を編集。
-* しばらくすると `gh-pages` ブランチに `style.json` がコミットされるので、Geolonia Maps で表示する場合は、その URL を以下のように指定してください。
+* しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
+* GitHubPages の URL にアクセスすると修正した地図が表示されます。
 
-```
-<div data-style="https://<あなたのGitHubユーザー名>.github.io/<リポジトリ名>/style.json"></div>
-```
-
-例: https://codepen.io/naogify/pen/ZEJOErQ
-
+例：https://naogify.github.io/atrantic-style
 
 ## 色のカスタマイズ
 
