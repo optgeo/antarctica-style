@@ -21,7 +21,7 @@
 
 地図の色を変更するには、[layers](./layers) にあるファイル内のカラーコードを変更して下さい。
 
-例えば、[background.yml](./layers/background.yml) は以下の様になっています。海の色は `rgb(161, 229, 252)` なので `rgb(255, 0, 0)` に変更すると赤に変更できます。
+例えば、[background.yml](./layers/background.yml) は以下の様になっています。海の色は `#A1E5FC` なので `rgb(255, 0, 0)` に変更すると赤に変更できます。
 
 ```
 id: background
