@@ -1,0 +1,25 @@
+id: contour
+type: line
+source: v
+source-layer: contour
+paint:
+  line-color: rgb(200, 160, 60)
+  line-opacity: 
+    - interpolate
+    - - exponential
+      - 2
+    - - zoom
+    - 8
+    - 0
+    - 12
+    - 1
+  line-width:
+    - match
+    - - get
+      - 図式コード
+    - - 8201
+      - 8204
+      - 9201
+      - 9204
+    - 1.4
+    - 0.7

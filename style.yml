@@ -1,0 +1,19 @@
+version: 8
+center:
+  - 39.507
+  - -69.021
+zoom: 12
+sources:
+  v:
+    type: vector
+    attribution: 国土地理院
+    minzoom: 8
+    maxzoom: 11
+    tiles:
+      - https://x.optgeo.org/a-1/zxy/{z}/{x}/{y}.pbf
+layers:
+  - !!inc/file layers/background.yml
+  - !!inc/file layers/area.yml
+  - !!inc/file layers/coastline.yml
+  - !!inc/file layers/contour.yml
+  - !!inc/file layers/building.yml
