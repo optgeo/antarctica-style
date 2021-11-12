@@ -18,8 +18,8 @@ jobs:
       - name: Convert the YAML to GeoJSON
         run: |
           cd $GITHUB_WORKSPACE
-          npm install
-          npm run build
+          npm install -g @unvt/charites
+          charites build style.yml style.json
           echo "charites" > .gitignore
 
       - name: Deploy the GeoJSON to `gh-pages`
