@@ -1,4 +1,4 @@
-# atrantic-style
+# antarctica-style
 
 
 [FOSS4G 2021 Japan Online](https://www.osgeo.jp/events/foss4g-2021/foss4g-2021-japan-online) ハンズオン用のサンプルレポジトリです。
@@ -26,3 +26,6 @@ type: background
 paint: 
   background-color: rgb(161, 229, 252)
 ```
+
+参考
+- https://github.com/optgeo/a-1 のタイルとスタイルを使用しています。
