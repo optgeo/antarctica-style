@@ -12,7 +12,7 @@
 * しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
 * GitHubPages の URL にアクセスすると修正した地図が表示されます。
 
-例：https://naogify.github.io/atrantic-style
+例：https://naogify.github.io/antarctica-style/
 
 ## 色のカスタマイズ
 
