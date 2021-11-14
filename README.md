@@ -1,7 +1,7 @@
 # antarctica-style
 
 
-[FOSS4G 2021 Japan Online](https://www.osgeo.jp/events/foss4g-2021/foss4g-2021-japan-online) ハンズオン用のサンプルレポジトリです。
+[FOSS4G 2021 Japan Online](https://www.osgeo.jp/events/foss4g-2021/foss4g-2021-japan-online) ハンズオン用のサンプルレポジトリです。[南極大陸のベクトルタイル]（https://github.com/optgeo/a-1）のスタイルを GitHub 上で編集できます。
 
 
 ## ユーザーがカスタマイズする際の手順
