@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "charites serve style.yml",
     "build": "charites build style.yml style.json"
   },
   "repository": {
