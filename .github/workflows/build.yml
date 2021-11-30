@@ -20,7 +20,6 @@ jobs:
           cd $GITHUB_WORKSPACE
           npm install
           npm run build
-          echo "charites" > .gitignore
 
       - name: Deploy the GeoJSON to `gh-pages`
         uses: peaceiris/actions-gh-pages@v3
