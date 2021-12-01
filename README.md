@@ -37,14 +37,14 @@ To change the color of the map, use [layers](. /layers), change the color code i
 For example, in [background.yml](. /layers/background.yml) looks like the following. The color of the ocean is `rgb(161, 229, 252)`, so changing it to `rgb(255, 0, 0)` will change it to red.
 
 You can change it to red by changing it to `rgb(255, 0, 0)`.
+
+```
 id: background
 type: background
 paint: 
   background-color: rgb(161, 229, 252)
 ```
 
-Reference
+## Reference
+
 - Uses tiles and styles from https://github.com/optgeo/a-1.
-
-
-Translated with www.DeepL.com/Translator (free version)
