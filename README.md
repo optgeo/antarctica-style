@@ -10,8 +10,9 @@ cd antarctica-style
 npm install
 ```
 
-Launch the development environment
+Set up the development environment
 
+```
 npm start
 npm start
 ```
@@ -19,11 +20,13 @@ npm start
 The development environment will be launched at http://localhost:8080/.
 
 
-After modifying the style, push it to the `main` branch.
+### Publish the style
 
-After a while, the `style.json` will be committed to the `gh-pages` branch.
+1. After modifying the style, push it to the `main` branch.
 
-If you access the GitHubPages URL, you will see the modified map. (You need to configure GitHubPages).
+1. After a while, the `style.json` will be committed to the `gh-pages` branch.
+
+1. If you access the GitHubPages URL, you will see the modified map. (You need to configure GitHubPages).
 
 Example: https://naogify.github.io/antarctica-style/
 
