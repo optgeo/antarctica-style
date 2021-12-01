@@ -18,12 +18,13 @@ npm start
 
 http://localhost:8080/ で開発環境が立ち上がります。
 
+### スタイルの公開
 
-スタイルを修正後に、`main` ブランチに push します。
+1. スタイルを修正後に、`main` ブランチに push します。
 
-しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
+2. しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
 
-GitHubPages の URL にアクセスすると修正した地図が表示されます。(GitHubPages の設定が必要です)
+3. GitHubPages の URL にアクセスすると修正した地図が表示されます。
 
 例：https://naogify.github.io/antarctica-style/
 
@@ -41,4 +42,4 @@ paint:
 ```
 
 参考
-- https://github.com/optgeo/a-1 のタイルとスタイルを使用しています。
+- https://github.com/optgeo/a-1 のタイルを使用しています。
