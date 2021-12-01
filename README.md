@@ -28,7 +28,7 @@ The development environment will be launched at http://localhost:8080/.
 
 1. If you access the GitHubPages URL, you will see the modified map. (You need to configure GitHubPages).
 
-Example: https://naogify.github.io/antarctica-style/
+Example: https://optgeo.github.io/antarctica-style/
 
 ## Color customization
 
@@ -49,4 +49,4 @@ paint:
 
 - Uses tiles from https://github.com/optgeo/a-1.
 
-[日本語訳はこちら](https://github.com/naogify/antarctica-style/blob/main/README-JA.md)
+[日本語訳はこちら](https://github.com/optgeo/antarctica-style/blob/main/README-JA.md)
