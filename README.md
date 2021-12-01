@@ -6,7 +6,7 @@ This is the style repository for [Antarctica vector tiles](https://github.com/op
 
 https://optgeo.github.io/antarctica-style/
 
-## Instructions for user customization.
+## Instructions for style customization.
 
 ```
 git clone https://github.com/optgeo/antarctica-style
@@ -24,7 +24,7 @@ npm start
 The development environment will be launched at http://localhost:8080/.
 
 
-### Deploy preview map
+### Deploy map for preview
 
 1. After modifying the style, push it to the `main` branch.
 
