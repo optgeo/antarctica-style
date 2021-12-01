@@ -2,6 +2,9 @@
 
 これは [南極大陸のベクトルタイル](https://github.com/optgeo/a-1) のスタイルレポジトリです。
 
+## デモ
+https://optgeo.github.io/antarctica-style/
+
 ## ユーザーがカスタマイズする際の手順
 
 ```
@@ -25,7 +28,7 @@ http://localhost:8080/ で開発環境が立ち上がります。
 
 GitHubPages の URL にアクセスすると修正した地図が表示されます。(GitHubPages の設定が必要です)
 
-例：https://naogify.github.io/antarctica-style/
+例：https://optgeo.github.io/antarctica-style/
 
 ## 色のカスタマイズ
 
