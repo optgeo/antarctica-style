@@ -1,8 +1,8 @@
 # antarctica-style
 
-これは [南極大陸のベクトルタイル](https://github.com/optgeo/a-1) のスタイルレポジトリです。
+This is the style repository for [Antarctica vector tiles](https://github.com/optgeo/a-1).
 
-## ユーザーがカスタマイズする際の手順
+## Instructions for user customization.
 
 ```
 git clone https://github.com/optgeo/antarctica-style
@@ -10,35 +10,37 @@ cd antarctica-style
 npm install
 ```
 
-開発環境を立ち上げる
+Launch the development environment
 
-```
+npm start
 npm start
 ```
 
-http://localhost:8080/ で開発環境が立ち上がります。
+The development environment will be launched at http://localhost:8080/.
 
 
-スタイルを修正後に、`main` ブランチに push します。
+After modifying the style, push it to the `main` branch.
 
-しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
+After a while, the `style.json` will be committed to the `gh-pages` branch.
 
-GitHubPages の URL にアクセスすると修正した地図が表示されます。(GitHubPages の設定が必要です)
+If you access the GitHubPages URL, you will see the modified map. (You need to configure GitHubPages).
 
-例：https://naogify.github.io/antarctica-style/
+Example: https://naogify.github.io/antarctica-style/
 
-## 色のカスタマイズ
+## Color customization
 
-地図の色を変更するには、[layers](./layers) にあるファイル内のカラーコードを変更して下さい。
+To change the color of the map, use [layers](. /layers), change the color code in the file.
 
-例えば [background.yml](./layers/background.yml) は以下の様になっています。海の色は `rgb(161, 229, 252)` なので `rgb(255, 0, 0)` に変更すると赤に変更できます。
+For example, in [background.yml](. /layers/background.yml) looks like the following. The color of the ocean is `rgb(161, 229, 252)`, so changing it to `rgb(255, 0, 0)` will change it to red.
 
-```
+You can change it to red by changing it to `rgb(255, 0, 0)`.
 id: background
 type: background
 paint: 
   background-color: rgb(161, 229, 252)
 ```
 
-参考
-- https://github.com/optgeo/a-1 のタイルとスタイルを使用しています。
+Reference
+- Uses tiles and styles from https://github.com/optgeo/a-1.
+
+Translated with www.DeepL.com/Translator (free version)
