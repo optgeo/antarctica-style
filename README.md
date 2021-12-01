@@ -1,16 +1,29 @@
 # antarctica-style
 
-
-[FOSS4G 2021 Japan Online](https://www.osgeo.jp/events/foss4g-2021/foss4g-2021-japan-online) ハンズオン用のサンプルレポジトリです。[南極大陸のベクトルタイル](https://github.com/optgeo/a-1) のスタイルを GitHub 上で編集できます。
-
+これは [南極大陸のベクトルタイル](https://github.com/optgeo/a-1) のスタイルレポジトリです。
 
 ## ユーザーがカスタマイズする際の手順
 
-* [Use this template](https://github.com/naogify/basic/generate) ボタンでこのリポジトリをコピー。
-* GitHubPages を設定。
-* `style.yml` を編集。
-* しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
-* GitHubPages の URL にアクセスすると修正した地図が表示されます。
+```
+git clone https://github.com/optgeo/antarctica-style
+cd antarctica-style
+npm install
+```
+
+開発環境を立ち上げる
+
+```
+npm start
+```
+
+http://localhost:8080/ で開発環境が立ち上がります。
+
+
+スタイルを修正後に、`main` ブランチに push します。
+
+しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
+
+GitHubPages の URL にアクセスすると修正した地図が表示されます。(GitHubPages の設定が必要です)
 
 例：https://naogify.github.io/antarctica-style/
 
