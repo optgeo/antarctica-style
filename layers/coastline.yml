@@ -3,7 +3,7 @@ type: line
 source: v
 source-layer: coastline
 paint:
-  line-color: rgb(78, 137, 240)
+  line-color: rgb(32, 50, 246)
   line-opacity: 
     - interpolate
     - - exponential

@@ -1,4 +1,4 @@
-id: contour
+id: contour-dash
 type: line
 source: v
 source-layer: contour
@@ -6,18 +6,9 @@ filter:
   - match
   - - get
     - 図式コード
-  - - 8201
-    - 8204
-    - 8211
-    - 8214
-    - 8811
-    - 9201
-    - 9024
-    - 9211
-    - 9212
-    - 9214
-    - 9221
-    - 9224
+  - - 8221
+    - 8222
+    - 8224
   - true
   - false
 paint:
@@ -57,3 +48,6 @@ paint:
         - 9204
       - 1.4
       - 0.7
+  line-dasharray:
+    - 10
+    - 2
