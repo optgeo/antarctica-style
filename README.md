@@ -34,7 +34,7 @@ Example: https://naogify.github.io/antarctica-style/
 
 To change the color of the map, use [layers](./layers), change the color code in the file.
 
-For example, in [background.yml](./layers/background.yml) looks like the following. The color of the ocean is `rgb(161, 229, 252)`, so changing it to `rgb(255, 0, 0)` will change it to red.
+For example, in [background.yml](./layers/background.yml) looks like the following. The color of the ocean is `rgb(161, 229, 252)`, so changing it to `rgb(255, 0, 0)` will change ocean's color to red.
 
 You can change it to red by changing it to `rgb(255, 0, 0)`.
 
