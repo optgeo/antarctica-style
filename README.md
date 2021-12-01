@@ -20,7 +20,7 @@ npm start
 The development environment will be launched at http://localhost:8080/.
 
 
-### Publish the style
+### Deploy preview map
 
 1. After modifying the style, push it to the `main` branch.
 
