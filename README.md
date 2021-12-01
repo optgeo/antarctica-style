@@ -47,4 +47,6 @@ paint:
 
 ## Reference
 
-- Uses tiles and styles from https://github.com/optgeo/a-1.
+- Uses tiles from https://github.com/optgeo/a-1.
+
+[日本語訳はこちら](https://github.com/naogify/antarctica-style/blob/main/README-JA.md)
