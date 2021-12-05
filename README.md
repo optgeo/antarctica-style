@@ -18,7 +18,6 @@ Set up the development environment
 
 ```
 npm start
-npm start
 ```
 
 The development environment will be launched at http://localhost:8080/.
