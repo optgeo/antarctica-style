@@ -1,0 +1,29 @@
+version: 8
+center:
+  - 39.507
+  - -69.021
+zoom: 12
+sources:
+  v:
+    type: vector
+    attribution: 国土地理院
+    minzoom: 8
+    maxzoom: 16
+    tiles:
+      - https://x.optgeo.org/a-1/zxy/{z}/{x}/{y}.pbf
+glyphs: https://maps.gsi.go.jp/xyz/noto-jp/{fontstack}/{range}.pbf 
+# NotoSansCJKjp-Regular
+sprite: https://sprites.geolonia.com/basic
+layers:
+  - !!inc/file layers/background.yml
+  - !!inc/file layers/area.yml
+  - !!inc/file layers/coastline.yml
+  - !!inc/file layers/contour.yml
+  - !!inc/file layers/contour-dash.yml
+  - !!inc/file layers/boundary.yml
+  - !!inc/file layers/road.yml
+  - !!inc/file layers/pipeline.yml
+  - !!inc/file layers/building.yml
+  - !!inc/file layers/control.yml
+  - !!inc/file layers/symbol.yml
+  - !!inc/file layers/annotation.yml

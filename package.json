@@ -1,0 +1,23 @@
+{
+  "name": "antarctica-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "charites serve style.yml",
+    "build": "charites build style.yml style.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naogify/antarctica-style.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naogify/antarctica-style/issues"
+  },
+  "homepage": "https://github.com/naogify/antarctica-style#readme",
+  "devDependencies": {
+    "@unvt/charites": "~0.1.2"
+  }
+}
